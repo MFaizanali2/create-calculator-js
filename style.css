@@ -8,3 +8,25 @@ html,body{
     height: 100%;
     font-family: sans-serif;
 }
+#key{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0,0%,30%);
+    cursor: pointer;
+    font-size: 3rem;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+}
+#change{
+    background-color: rgb(194, 194, 33);
+}
+button:hover{
+    background-color: hsl(0, 0%, 20%);
+}
