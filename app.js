@@ -1,6 +1,7 @@
+const display = document.getElementById("display");
 
-function btn(){
-
+function btn(input){
+    display.value += input; 
 }
 
 function calculate(){
@@ -8,5 +9,5 @@ function calculate(){
 }
 
 function clear(){
-    
+
 }

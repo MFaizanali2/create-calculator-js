@@ -8,25 +8,56 @@ html,body{
     height: 100%;
     font-family: sans-serif;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0,0%,95%);
+    height: 100vh;
+}
+#container{
+    font-family: sans-serif;
+    background-color: hsl(0, 10%, 15%);
+    max-width: 500px;
+    border-radius: 20px;
+}
 #key{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 20px;
 }
+#display{
+    width: 100%;
+    text-align: left;
+    padding: 25px;
+    font-size: 4rem;
+    border: none;
+    font-weight: bolder;
+    background-color: hsl(0,0%,20%);
+    border-radius: 20px 20px 0px 0px;
+    color: #fff;
+    outline: none;
+}
 button{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     background-color: hsl(0,0%,30%);
     cursor: pointer;
-    font-size: 3rem;
+    font-size: 2rem;
     border-radius: 50%;
     border: none;
     color: #fff;
 }
-#change{
-    background-color: rgb(194, 194, 33);
-}
 button:hover{
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+#change{
+    background-color: hsl(35, 100%, 55%);
+}
+#change:hover{
+    background-color: hsl(35, 100%, 65%);
 }
