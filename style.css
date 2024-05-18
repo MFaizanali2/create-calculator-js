@@ -61,3 +61,26 @@ button:active{
 #change:hover{
     background-color: hsl(35, 100%, 65%);
 }
+
+/* button{
+    width: 80px;
+    height: 80px;
+    background-color: hsl(0,0%,30%);
+    cursor: pointer;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+}
+button:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+button:active{
+    background-color: hsl(0, 0%, 50%);
+}
+#change{
+    background-color: hsl(35, 100%, 55%);
+}
+#change:hover{
+    background-color: hsl(35, 100%, 65%);
+} */
