@@ -1,13 +1,16 @@
-const display = document.getElementById("display");
+const play = document.getElementById("display");
 
 function btn(input){
-    display.value += input; 
+    const play = document.getElementById("display");
+    play.value += input;
+    
 }
 
 function calculate(){
-
+    const play = document.getElementById("display");
+    play.value = eval(play.value);
 }
-
-function clear(){
-
+function clr() {
+    const play = document.getElementById("display");
+    play.value = "";
 }
